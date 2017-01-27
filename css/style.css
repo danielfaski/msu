@@ -1,0 +1,18 @@
+div { background-color: green;
+	width: 100%; }
+
+.one { padding-bottom: 100px; }
+
+#darcy { width: 50%; }
+
+div { background-color: green; 
+	width: 100%; }
+
+	@media (min-width: 768px) {
+		div {
+			background-color: yellow;
+			float: left;
+			margin: 1%;
+			width: 31%;
+		}
+	}
